@@ -1,5 +1,5 @@
 var main = function(){
-  $('.menu').click({
+  $('.menu').click(function(){
     $('.menu').fadeOut();
   });
 };
