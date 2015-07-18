@@ -1,6 +1,6 @@
 var main = function(){
   $('.menu').click(function(){
-    $('.menu').fadeOut();
+    $(this).fadeOut();
   });
 };
 
