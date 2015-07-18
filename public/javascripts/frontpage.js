@@ -2,7 +2,7 @@ var main = function(){
   $('.menu').click(function(){
     $(this).fadeOut();
   });
-  $('.nav li').click(function(){
+  $('ul li').click(function(){
     $(this).addClass('active')
   });
 };
