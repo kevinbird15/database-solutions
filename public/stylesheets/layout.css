@@ -7,3 +7,11 @@ li a{
   font-weight: bold;
   font-size: 20;
 }
+
+#outer-body{
+  background-color: #9bc2cf;
+}
+
+#inner-body{
+  background-color: #b5dbe8;
+}
