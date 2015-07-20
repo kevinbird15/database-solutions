@@ -2,3 +2,7 @@
   background-color:#add8e6;
   height: 3em;
 }
+
+li a{
+  font-weight: bold;
+}
