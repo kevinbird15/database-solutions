@@ -1,17 +1,31 @@
+html{
+  height: 100%;
+}
+body{
+  height: 100%;
+}
+#logo{
+  background-color: #66CCFF;
+  height: 1%;
+}
 #header{
-  background-color:#add8e6;
-  height: 3em;
+  padding: 0.5%;
+  background-color: #66CCFF;
+/*  background-color: #0099CC;*/
+  height: 4%;
 }
 
 li a{
   font-weight: bold;
   font-size: 20;
+  color: white;
+  /*color: #0099CC;*/
 }
 
 #outer-body{
-  background-color: #9bc2cf;
-}
-
-#inner-body{
-  background-color: #b5dbe8;
+  height: 95%;
+  /*padding-left: 10%;*/
+  /*padding-top: 2%;*/
+  /*background-color:#CCFFCC;*/
+  background-color: #66CCFF;
 }

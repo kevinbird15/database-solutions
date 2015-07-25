@@ -2,6 +2,11 @@ Rails.application.routes.draw do
   get 'home/index'
   get 'about' => 'home#about'
   get 'contact' => 'home#contact'
+  get 'seed' => 'seed#index'
+  get 'seed/pallet' => 'seed#pallet'
+  get 'seed/product' => 'seed#product'
+  get 'seed/transaction' => 'seed#transaction'
+  get 'seed/treatment' => 'seed#treatment'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
