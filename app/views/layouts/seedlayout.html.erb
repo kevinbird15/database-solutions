@@ -17,39 +17,20 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <div class="row">
-    <div class="col-md-12" id="header">
-      <div class="col-md-2 col-md-offset-1" id="logo">
-        <div class="col-md-9 col-md-offset-1">
-          <a href="/seed"><img src="/images/seed_syngenta.png" id="logo"></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-        <div class="col-md-9 col-md-offset-1"
-          <h4 id="time"><%=Time.now.strftime("%A, %B %-d, %Y")%></h4>
-        </div>
-      </div>
-  <!--  </div>
-  </div>-->
-  <div class="row">
-    <div>
-      <div class="col-md-12" id="header">
-        <div class="col-md-10 col-md-offset-1">
-          <ul class="nav nav-pills">
-            <li role="presentation" id="product"><a href="/seed/product">Product</a></li>
-            <li role="presentation" id="pallet"><a href="/seed/pallet">Pallet</a></li>
-            <li role="presentation" id="transaction"><a href="/seed/transaction">Transaction</a></li>
-            <li role="presentation" id="treatment"><a href="/seed/treatment">Treatment</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
+  <div class="body">
+    <div id="time"><%=Time.now.strftime("%A, %B %-d, %Y")%></div>
+    <ul class="nav nav-pills">
+      <li role="presentation" id="product"><a href="/seed/product">Product</a></li>
+      <li role="presentation" id="pallet"><a href="/seed/pallet">Pallet</a></li>
+      <li role="presentation" id="transaction"><a href="/seed/transaction">Transaction</a></li>
+      <li role="presentation" id="treatment"><a href="/seed/treatment">Treatment</a></li>
+    </ul>
   </div>
   <div class="left-sidebar">
-    Testing</br>
-    This too
+    <a href="/seed"><div class="left-title">
+      <p id="logo">Seed Database</p></br>
+
+    </div></a>
   </div>
   <div class="body">
 
@@ -59,7 +40,9 @@
 
 
   </div>
-  <div class="right-sidebar"> Right Test</div>
+  <div class="right-sidebar">
+
+  </div>
   <div class="footer"></div>
 </body>
 </html>
