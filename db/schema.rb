@@ -15,7 +15,6 @@ ActiveRecord::Schema.define(version: 20150801183222) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-  enable_extension "adminpack"
 
   create_table "seeds", force: :cascade do |t|
     t.string  "Brand"
