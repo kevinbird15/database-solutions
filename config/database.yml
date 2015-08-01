@@ -83,6 +83,6 @@ test:
 #
 production:
   <<: *default
-  database: app_production
+  database: postgres
   username: rails
-  password: <%= ENV['APP_DATABASE_PASSWORD'] %>
+  password: 74P5tnYnpv
