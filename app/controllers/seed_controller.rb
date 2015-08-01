@@ -5,6 +5,7 @@ class SeedController < SeedlayoutController
 
   def product
     @title="Seed Product"
+    @seeds = Seed.all
   end
 
   def pallet

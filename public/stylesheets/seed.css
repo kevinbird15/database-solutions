@@ -74,7 +74,7 @@ li a{
   background-color: grey;
 }
 
-.btn{
+.customize_btn{
   width: 204px;
   height: 46px;
 }
@@ -98,4 +98,8 @@ li a{
   position: absolute;
   bottom: 0;
   z-index: 0;
+}
+
+.seed_table{
+  font-weight: bold;
 }

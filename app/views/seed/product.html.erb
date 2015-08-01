@@ -3,4 +3,33 @@
     $('#product').addClass('active');
   });
 </script>
-seed/product
+<table class="table table-hover seed_table">
+  <thead>
+    <th>ID</th>
+    <th>Brand</th>
+    <th>ProductType</th>
+    <th>Lot#/Item</th>
+    <th>Hybrid/Variety</th>
+    <th>Grade</th>
+    <th>Treatment</th>
+    <th>Package</th>
+    <th>Bag Weight</th>
+    <th>Seeds/Lb</th>
+  </thead>
+  <tbody>
+    <%@seeds.each do |s|%>
+      <tr>
+        <td><%=s.id%></td>
+        <td><%=s.Brand%></td>
+        <td><%=s.ProductType%></td>
+        <td><%=s.LotNumber%></td>
+        <td><%=s.Hybrid%></td>
+        <td><%=s.Grade%></td>
+        <td><%=s.Treatment%></td>
+        <td><%=s.Package%></td>
+        <td><%=s.BagWeight%></td>
+        <td><%=s.SeedsPerPound%></td>
+      </tr>
+    <%end%>
+  </tbody>
+</table>
