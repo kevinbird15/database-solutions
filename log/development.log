@@ -5667,3 +5667,10 @@ Processing by SeedController#product as HTML
   [1m[35mSeed Load (0.0ms)[0m  SELECT "seeds".* FROM "seeds"
   Rendered seed/product.html.erb within layouts/seedlayout (2.0ms)
 Completed 200 OK in 37ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/seed/product" for ::1 at 2015-08-01 16:33:26 -0500
+Processing by SeedController#product as HTML
+  [1m[36mSeed Load (0.0ms)[0m  [1mSELECT "seeds".* FROM "seeds"[0m
+  Rendered seed/product.html.erb within layouts/seedlayout (2.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 0.0ms)
